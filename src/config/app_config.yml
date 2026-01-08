@@ -1,0 +1,22 @@
+app:
+  output_dir: "src/sphinx/output_screenshots"
+  config_path: "src/sphinx/config/html_tags.yaml"
+html_tags:
+  sections:
+    section: "section"
+  elements:
+    tables: "table"
+    graphs:
+      canvas: "canvas"
+      images: "img"
+    texts:
+      ordered_lists: "ol"
+      unordered_lists: "ul"
+      paragraphs: "p"
+    references: "aside"
+    headers:
+      h1: "h1"
+      h2: "h2"
+      h3: "h3"
+models:
+  docling_path : "//FLD6FILER/DScD/Special Project/Sphinx/docling/models/model_artifacts/complete"
