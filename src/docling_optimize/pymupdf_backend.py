@@ -1,3 +1,5 @@
+# Current v3 in local project. Working on formatting information extraction
+
 import logging
 from collections.abc import Iterable
 from io import BytesIO
