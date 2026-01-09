@@ -30,7 +30,7 @@ def _load_config(config_path: str | os.PathLike) -> Config:
         raise
 
 
-config_path = "config/app_config.yml"
+config_path = "src/docling_optimize/config/app_config.yml"
 
 
 config = _load_config(config_path)
@@ -54,8 +54,8 @@ converter = DocumentConverter(
 )
 
 
-filepath="../../data/pdf/inputs/example_1.pdf"
+# filepath="../../data/pdf/inputs/example_1.pdf"
 
-doc = converter.convert(source=Path(filepath)).document
+# doc = converter.convert(source=Path(filepath)).document
 
-print(len(doc.pictures))
+# print(len(doc.pictures))
